@@ -210,8 +210,8 @@ Edit `config.py` to customize behaviour:
 
 | Parameter | Default | Description |
 |---|---|---|
-| `CHUNK_SIZE` | `1000` | Characters per text chunk |
-| `CHUNK_OVERLAP` | `200` | Overlap between consecutive chunks |
+| `CHUNK_SIZE` | `500` | Characters per text chunk |
+| `CHUNK_OVERLAP` | `50` | Overlap between consecutive chunks |
 | `TOP_K` | `4` | Number of chunks retrieved per query |
 | `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | HuggingFace embedding model |
 | `LLM_MODEL` | `gemini-2.5-flash` | Gemini model for generation |
